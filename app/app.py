@@ -19,7 +19,7 @@ def load_and_prep(image, shape=224, scale=False):
 
 class_names = ['Fire', 'No Fire']
 
-st.set_page_config(page_title="WFD : beta")
+st.set_page_config(page_title="Xtinguish")
 
 #### Main Body ####
 
