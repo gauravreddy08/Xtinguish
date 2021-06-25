@@ -1,8 +1,11 @@
-# Xtinguish `Beta`
+# Xtinguish (beta)
 
 **Xtinguish** is an CNN Image Classfication model which helps in detecting and preventing **Wildfires**.
 
 > **The Project is still in progress. More changes, features to come over time.**
+
+![image](https://user-images.githubusercontent.com/57211163/123479724-facc7b80-d61e-11eb-82d6-5018c7c0c573.png)
+
 
 ## How can I test it?
 
@@ -24,7 +27,7 @@ Once an app is loaded,
 3. Once you click the **`Predict`** button, the model prediction takes place and the output will be displayed.
 
 4. And voilà, there you go.
-
+----
    
 
 > ##### **Model Used :** **`EfficientNetB0`**
