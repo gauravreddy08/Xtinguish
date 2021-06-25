@@ -1,0 +1,32 @@
+# Xtinguish `Beta`
+
+**Xtinguish** is an CNN Image Classfication model which helps in detecting and preventing **Wildfires**.
+
+> **The Project is still in progress. More changes, features to come over time.**
+
+## How can I test it?
+
+Finally after training the model, I have exported it as `.hdf5` files and then integrated it with **Streamlit Web App**. 
+
+**Streamlit** turns data scripts into shareable web apps in minutes. 
+Once I got the App working on my local device I then deployed it using Streamlit’s invite-only **[sharing feature](https://streamlit.io/sharing)**
+
+### To view the Deployed app, [Click here](https://share.streamlit.io/gauravreddy08/food-vision/main/food-vision/app.py)
+
+> The app may take a couple of seconds to load for the first time, but it works perfectly fine.
+
+Once an app is loaded, 
+
+1. Upload an image.
+
+2. Once the image is processed, **`Predict`** button appears. Click it.
+
+3. Once you click the **`Predict`** button, the model prediction takes place and the output will be displayed.
+
+4. And voilà, there you go.
+
+   
+
+> ##### **Model Used :** **`EfficientNetB0`**
+>
+> ##### Accuracy : **`95%`**
