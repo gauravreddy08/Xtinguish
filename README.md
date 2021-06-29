@@ -28,5 +28,5 @@ Once an app is loaded,
 ----
    
 
-> ##### **Model Used :** **`EfficientNetB0`**
-> ##### Accuracy : **`95%`**
+> **Model Used :** **`EfficientNetB0`**
+> **Accuracy :** **`95%`**
