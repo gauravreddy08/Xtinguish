@@ -18,6 +18,8 @@ def load_and_prep(image, shape=224, scale=False):
         image = image/255.
     return image
 
+OP_API_KEY = st.secrets["OP_API_KEY"]
+
 def weather_bar():
     loc, weather, temp, hum, wind_dir, wind_speed = get_weather(OP_API_KEY)
     st.sidebar.title('Weather Conditions ☁️')
