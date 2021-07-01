@@ -55,7 +55,7 @@ st.write("To know more about this app, visit [**GitHub**](https://github.com/gau
 file = st.file_uploader(label="Upload an image",
                         type=["jpg", "jpeg", "png"])
 
-model = tf.keras.models.load_model("../models/baseline_model.hdf5")
+model = tf.keras.models.load_model("./models/baseline_model.hdf5")
 
 if not file:
     st.warning("Please upload an image")
