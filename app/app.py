@@ -1,5 +1,6 @@
 import streamlit as st
 import tensorflow as tf
+from weather import get_weather
 
 
 @st.cache(suppress_st_warning=True)
@@ -17,12 +18,36 @@ def load_and_prep(image, shape=224, scale=False):
         image = image/255.
     return image
 
-class_names = ['Fire', 'No Fire']
+def weather_bar():
+    loc, weather, temp, hum, wind_dir, wind_speed = get_weather(OP_API_KEY)
+    st.sidebar.title('Weather Conditions ☁️')
+    st.sidebar.write(f"""
+        **Location :** `{loc}`
+        
+        **Weather :** `{weather}`
+        
+        **Temperature :** `{temp} Kelvin`
+        
+        **Humidity :** `{hum}%`
+        
+        **Wind Direction :** `{wind_dir}°`
+        
+        
+        **Wind Speed :** `{wind_speed} m/s`
+""")
 
+
+
+
+
+
+class_names = ['Fire', 'No Fire']
 st.set_page_config(page_title="Xtinguish")
+OP_API_KEY = '924902871c9adb69426a2a6d0d79da71'
+
+
 
 #### Main Body ####
-
 
 st.title("Xtinguish `Beta`")
 st.write("**Xtinguish** is an CNN Image Classfication model which helps in detecting and preventing **Wildfires**.")
@@ -30,7 +55,7 @@ st.write("To know more about this app, visit [**GitHub**](https://github.com/gau
 file = st.file_uploader(label="Upload an image",
                         type=["jpg", "jpeg", "png"])
 
-model = tf.keras.models.load_model("./models/baseline_model.hdf5")
+model = tf.keras.models.load_model("../models/baseline_model.hdf5")
 
 if not file:
     st.warning("Please upload an image")
@@ -43,4 +68,5 @@ else:
 
 if pred_button:
     pred = predicting(image, model)
+    weather_bar()
     st.success(f'Prediction : {pred}')
