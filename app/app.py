@@ -43,7 +43,7 @@ def weather_bar():
 
 class_names = ['Fire', 'No Fire']
 st.set_page_config(page_title="Xtinguish")
-OP_API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
+
 
 
 
