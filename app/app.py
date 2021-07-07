@@ -76,3 +76,4 @@ if pred_button:
         time = st.selectbox("Day or Night", ("Day", "Night"))
         intenisty = find_intensity(count, time)
 
+
