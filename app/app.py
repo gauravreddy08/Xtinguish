@@ -1,6 +1,7 @@
 import streamlit as st
 import tensorflow as tf
 from weather import get_weather
+from intensity import get_pixel_count, find_intensity
 
 
 @st.cache(suppress_st_warning=True)
@@ -69,5 +70,9 @@ if pred_button:
     weather_bar()
     st.success(f'Prediction : {pred}')
 
-    pred_button.button("Predict Intensity")
+    in_button = st.button("Predict Intensity")
+    if in_button:
+        count = get_pixel_count(image)
+        time = st.selectbox("Day or Night", ("Day", "Night"))
+        intenisty = find_intensity(count, time)
 
