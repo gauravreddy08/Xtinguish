@@ -23,7 +23,7 @@ def load_and_prep(image, shape=224, scale=False):
         image = image / 255.
     return image
 
-OP_API_KEY = st.secrets("OPI_API_KEY")
+OP_API_KEY = st.secrets["OPI_API_KEY"]
 
 
 def weather_bar():
