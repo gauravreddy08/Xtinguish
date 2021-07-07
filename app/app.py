@@ -11,14 +11,17 @@ def predicting(image, model):
     pred_class = class_names[tf.round(int(preds[0]))]
     return pred_class
 
+
 def load_and_prep(image, shape=224, scale=False):
     image = tf.image.decode_image(image, channels=3)
     image = tf.image.resize(image, size=([shape, shape]))
     if scale:
-        image = image/255.
+        image = image / 255.
     return image
 
+
 OP_API_KEY = st.secrets["OP_API_KEY"]
+
 
 def weather_bar():
     loc, weather, temp, hum, wind_dir, wind_speed = get_weather(OP_API_KEY)
@@ -39,15 +42,8 @@ def weather_bar():
 """)
 
 
-
-
-
-
 class_names = ['Fire', 'No Fire']
 st.set_page_config(page_title="Xtinguish")
-
-
-
 
 #### Main Body ####
 
@@ -72,3 +68,5 @@ if pred_button:
     pred = predicting(image, model)
     weather_bar()
     st.success(f'Prediction : {pred}')
+
+
