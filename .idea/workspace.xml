@@ -4,6 +4,8 @@
     <list default="true" id="30427f89-83bd-4e5c-9879-677346fb2490" name="Default Changelist" comment="Adding intensity.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/intensity.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/intensity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/weather.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,28 @@
       <option name="project" value="LOCAL" />
       <updated>1625689533302</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding intensity.py">
+      <created>1625690052750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625690052750</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding intensity.py">
+      <created>1625690092992</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625690092992</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding intensity.py">
+      <created>1625690207567</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625690207567</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,16 +117,5 @@
     <MESSAGE value="Addinf intensity.py" />
     <MESSAGE value="Adding intensity.py" />
     <option name="LAST_COMMIT_MESSAGE" value="Adding intensity.py" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/app.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

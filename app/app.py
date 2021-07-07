@@ -1,7 +1,9 @@
 import streamlit as st
 import tensorflow as tf
-import cv2
-from weather import get_weather
+import tempfile
+
+import requests
+from weather import get_weather, get_time
 from intensity import get_pixel_count, find_intensity
 
 
@@ -21,8 +23,7 @@ def load_and_prep(image, shape=224, scale=False):
         image = image / 255.
     return image
 
-
-OP_API_KEY = st.secrets["OP_API_KEY"]
+OP_API_KEY = '924902871c9adb69426a2a6d0d79da71'
 
 
 def weather_bar():
@@ -69,12 +70,22 @@ else:
 if pred_button:
     pred = predicting(image, model)
     weather_bar()
-    st.success(f'Prediction : {pred}')
+    st.success(f'**Prediction :** {pred}')
+    if pred=="Fire":
+        tfile = tempfile.NamedTemporaryFile(delete=False)
+        tfile.write(image)
+        count = get_pixel_count(tfile.name)
+        time = get_time(OP_API_KEY)
+        i = find_intensity(count, time)
+        st.success(f"""
+        **Time :** {time}
+        
+        **Fire Intensity :** {i}
+                    """)
 
-    in_button = st.button("Predict Intensity")
-    if in_button:
-        count = get_pixel_count(image)
-        time = st.selectbox("Day or Night", ("Day", "Night"))
-        intenisty = find_intensity(count, time)
+
+
+
+
 
 
