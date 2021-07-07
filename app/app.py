@@ -68,5 +68,6 @@ if pred_button:
     pred = predicting(image, model)
     weather_bar()
     st.success(f'Prediction : {pred}')
+    del pred_button
     st.button("Predict Intensity")
 
