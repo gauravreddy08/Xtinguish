@@ -23,7 +23,10 @@ Leveraging on power of **Transfer Learning**, **Xtinguish** adapts the architect
 
 Further trained on custom datasets, it classifies a given image into `No Fire`, `Fire`
 
-On being tested on various images and video footages, **Xtinguish** acheived a high accuracy of **`98%`**. 
+On being tested on various images and video footages, **Xtinguish** acheived a high accuracy of **`98%`**.
+
+![performance](https://user-images.githubusercontent.com/57211163/125053364-a4514980-e0c2-11eb-832c-8b8bbb0e3ca2.png)
+
 ![hhhh](https://user-images.githubusercontent.com/57211163/125050221-6868b500-e0bf-11eb-8169-1abdea1820c1.png)
 
 
