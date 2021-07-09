@@ -1,27 +1,29 @@
-![Califire_1280p_2](https://user-images.githubusercontent.com/57211163/124975888-2eaa9680-e04c-11eb-99fb-fbe176b1a1bd.png)
-# Xtinguish : Preventing Wildfires using CNNs
+![cover_image](https://user-images.githubusercontent.com/57211163/124975888-2eaa9680-e04c-11eb-99fb-fbe176b1a1bd.png)
+# Xtinguish : Detecting Wildfires using CNNs
 
 **Xtinguish** is an CNN Image Classfication model which helps in detecting and preventing **Wildfires**.
 
 ## What it does ?
 
-**Xtinguish** takes image as an input and detects if there's a possible Wildfire with an accuracy of **`95%`**. 
+**Xtinguish** takes an image as a input and detects if there's a possible Wildfire with an accuracy of **`95%`**. 
 
-Leveraging on [**`OpenWeatherAPI`**](https://openweathermap.org), it also outputs the **Weather Data** based on your location.
+Leveraging on [**`OpenWeatherAPI`**](https://openweathermap.org), **Xtinguish** also outputs the **Weather Data** based on your location.
 
-**Xtinguish** also attempts to predict the **Fire Intensity** in the image.
+**Xtinguish** also attempts to predict the **Fire Intensity** based on the image.
 
 > **How is Xtinguish, different from other Image Classifiers ?**
 
-At the time of writing, no other Model out there does all the above mentioned tasks at one spot. 
+At the time of writing, no other Model out there perform all the above mentioned tasks at one spot. 
 
 ## How was it built ?
 
-**Xtinguish** takes advantage of a pre-built Convultional Neural Network Model, **`EfficientNetB0`** which was initially trained on the infamouts `ImageNET` dataset.
+Levraging on power of **Transfer Learning**, **Xtinguish** takes advantage of a pre-built Convultional Neural Network Model, **`EfficientNetB0`** which was initially trained on the infamouts **`ImageNET`** dataset.
+![cropped-Wildfires-and-Climate-Change-2000x834](https://user-images.githubusercontent.com/57211163/125040260-0efb8880-e0b5-11eb-8b12-b139af1adf1f.png)
+
 
 Further trained on custom datasets, it classifies a given image into `No Fire`, `Fire`
 
-
+On being tested on various images and video footages, **Xtinguish** acheived a high accuracy of **`95%`**. 
 
 
 
