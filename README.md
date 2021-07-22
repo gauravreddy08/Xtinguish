@@ -1,4 +1,4 @@
-# Xtinguish (beta)
+# Xtinguish
 
 **Xtinguish** is an CNN Image Classfication model which helps in detecting and preventing **Wildfires**.
 
