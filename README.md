@@ -3,17 +3,6 @@
 
  **Xtinguish** is an CNN Image Classfication model which helps in detecting and preventing **Wildfires**.
 
- ## What it does ?
-
- **Xtinguish** takes an image as a input and detects if there's a possible Wildfire with an accuracy of **`95%`**. 
-
- Leveraging on [**`OpenWeatherAPI`**](https://openweathermap.org), **Xtinguish** also outputs the **Weather Data** based on your location.
-
- **Xtinguish** also attempts to predict the **Fire Intensity** based on the image.
-
- > **How is Xtinguish, different from other Image Classifiers ?**
- At the time of writing, no other Model out there perform all the above mentioned tasks at one spot. 
-
 
 ## What it does ?
 
