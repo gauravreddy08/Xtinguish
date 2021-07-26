@@ -7,8 +7,7 @@
 ## What it does ?
 
  **Xtinguish** takes an image as a input and detects if there's a possible Fire or Smoke in it. 
-
- Taking advantage of [**`OpenWeatherAPI`**](https://openweathermap.org), **Xtinguish** outputs the **Weather Data** based on your location.
+Taking advantage of [**`OpenWeatherAPI`**](https://openweathermap.org), **Xtinguish** outputs the **Weather Data** based on your location.
 
  **Xtinguish** also attempts to predict the **Fire Intensity** based on the image.
 
