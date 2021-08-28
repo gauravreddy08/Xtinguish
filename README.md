@@ -1,7 +1,9 @@
 ![cover_image](https://user-images.githubusercontent.com/57211163/124975888-2eaa9680-e04c-11eb-99fb-fbe176b1a1bd.png)
- # Xtinguish : Detecting Wildfires using CNNs
+ # Xtinguish - Detecting Wildfires using CNNs
+ > More than a Wildfire detection system
 
- **Xtinguish** is an CNN Image Classfication model which helps in detecting and preventing **Wildfires**.
+ **Xtinguish** is an CNN Image Classfication model which aims to detect and prevent **Wildfires**.
+
 
 
 ## What it does ?
