@@ -33,7 +33,7 @@ def weather_bar():
 
 class_names = ['Fire', 'No Fire']
 st.set_page_config(page_title="Xtinguish")
-OP_API_KEY = st.secrets("KEY")
+OP_API_KEY = st.secrets["KEY"]
 
 st.title("Xtinguish")
 st.write("**Xtinguish** is an CNN Image Classfication model which helps in detecting and preventing Wildfires.")
