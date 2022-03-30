@@ -1,7 +1,6 @@
 import streamlit as st
 import tensorflow as tf
 import tempfile
-
 import requests
 from weather import get_weather, get_time
 from intensity import get_pixel_count, find_intensity
