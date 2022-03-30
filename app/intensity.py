@@ -2,7 +2,6 @@ import streamlit as st
 import cv2
 import numpy as np
 
-
 def get_pixel_count(img):
     img = cv2.imread(img)
     rimg = cv2.resize(img, (1000, 600))
@@ -35,4 +34,3 @@ def find_intensity(count, time):
             return "Low Intensity"
         else:
             return "Medium Intensity"
-
