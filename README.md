@@ -14,7 +14,7 @@ In addition, it will also output the weather data and the intensity of the fire.
 
 3. **Xtinguish** also attempts to predict the **Fire Intensity** based on the image.
 
-   ![cards](/Users/gauravreddy/Desktop/Xtinguish/assets/cards.png)
+   ![cards](assets/cards.png)
 
  > **How is Xtinguish, different from other Image Classifiers ?**
  > 
