@@ -1,3 +1,3 @@
 opencv-python-headless
-streamlit==0.84.0
-tensorflow==2.4.1
+streamlit
+tensorflow
