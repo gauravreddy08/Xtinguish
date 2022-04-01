@@ -2,6 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import tempfile
 
+import time
 import requests
 from weather import get_weather, get_time
 from intensity import get_pixel_count, find_intensity
@@ -10,6 +11,7 @@ def predicting(image, model):
     image = load_and_prep(image)
     image = tf.cast(tf.expand_dims(image, axis=0), tf.int16)
     preds = model.predict(image)
+    time.sleep(5)
     pred_class = class_names[tf.round(int(preds[0]))]
     return pred_class
 
