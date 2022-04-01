@@ -11,7 +11,8 @@ def predicting(image, model):
     image = load_and_prep(image)
     image = tf.cast(tf.expand_dims(image, axis=0), tf.int16)
     preds = model.predict(image)
-    time.sleep(5)
+    while not pred:
+        pass
     pred_class = class_names[tf.round(int(preds[0]))]
     return pred_class
 
