@@ -1,7 +1,7 @@
 import streamlit as st
 import tensorflow as tf
 import tempfile
-
+import math
 import time
 import requests
 from weather import get_weather, get_time
@@ -11,9 +11,8 @@ def predicting(image, model):
     image = load_and_prep(image)
     image = tf.cast(tf.expand_dims(image, axis=0), tf.int16)
     preds = model.predict(image)
-    while preds is NaN:
-        print("NAN")
-        pass
+    while math.isnan(preds):
+        print("Waiting...")
     pred_class = class_names[tf.round(int(preds[0]))]
     return pred_class
 
