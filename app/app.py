@@ -10,8 +10,9 @@ from intensity import get_pixel_count, find_intensity
 def predicting(image, model):
     image = load_and_prep(image)
     image = tf.cast(tf.expand_dims(image, axis=0), tf.int16)
-    preds = 0
     preds = model.predict(image)
+    print(preds)
+    print(preds[0])
     pred_class = class_names[tf.round(int(preds[0]))]
     return pred_class
 
