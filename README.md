@@ -1,4 +1,5 @@
 ![cover_image](https://user-images.githubusercontent.com/57211163/124975888-2eaa9680-e04c-11eb-99fb-fbe176b1a1bd.png)
+**Published Research Paper :** https://link.springer.com/article/10.1007/s42979-022-01160-7
 
  ## What is Xtinguish ?
 Due to increasing world temperatures, wildfires have destroyed millions of acres of land, thousands of structures, and homes. Most wildfires are due to anthropogenic factors, which cannot be predicted solely based on climate conditions. Henceforth, to detect wildfires before escalating, we propose **Xtinguish**, equipped with an end-to-end CNN image classification model, trained on a wildfire imagery dataset to detect a possible flame or smoke in an image. 
