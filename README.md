@@ -34,3 +34,27 @@ Leveraging on power of **Transfer Learning**, **Xtinguish** adapts the architect
 Further trained on custom dataset, it classifies a given image into `No Fire`, `Fire`. On being tested on various images and benchmark datasets, **Xtinguish** acheived a high accuracy of **`98%`**. 
 
 ![hhhh](https://user-images.githubusercontent.com/57211163/125050221-6868b500-e0bf-11eb-8169-1abdea1820c1.png)
+---
+---
+#### Cite the work
+```
+@Article{Sethuraman2022,
+author={Sethuraman, Sibi Chakkaravarthy
+and Tadkapally, Gaurav Reddy
+and Mohanty, Saraju P.
+and Subramanian, Anitha},
+title={iDrone: IoT-Enabled Unmanned Aerial Vehicles for Detecting Wildfires Using Convolutional Neural Networks},
+journal={SN Computer Science},
+year={2022},
+month={Apr},
+day={25},
+volume={3},
+number={3},
+pages={242},
+abstract={The rise of global temperatures, over the past few decades, has disrupted the usual balance of nature. As a result of increasing temperatures, wildfires have destroyed millions of acres of land, thousands of structures, and homes. The pollution and toxic gases produced by the wildfires are carried out to thousands of miles, thus threatening the lives all around the world. Most wildfires occur due to anthropogenic factors, which cannot be predicted solely based on climate conditions. Henceforth, to detect wildfires before escalating, we propose iDrone, which is a wildfire detection system equipped with an end-to-end CNN image classification model: XtinguishNet, trained on a wildfire imagery dataset to detect the possible flames or smokes in an image. In addition, our approach also acquires the weather data and the intensity of the fire. Contrasting with existing wildfire detection systems, our proposed solution is a fusion of the Internet of Things (IoT) and Deep Learning, aiming to provide a one-stop solution for all the needs required to minimize the damage caused by wildfires. When validated and tested using various benchmark datasets, video surveillance, iDrone acquired a high accuracy of 98.36{\%} with the least computational power.},
+issn={2661-8907},
+doi={10.1007/s42979-022-01160-7},
+url={https://doi.org/10.1007/s42979-022-01160-7}
+}
+```
+
