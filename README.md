@@ -1,4 +1,4 @@
-![cover_image](https://user-images.githubusercontent.com/57211163/124975888-2eaa9680-e04c-11eb-99fb-fbe176b1a1bd.png)
+![](assets/image1.png)
 
 <p align="center">
   <a href="https://doi.org/10.1007/s42979-022-01160-7"><img src="https://img.shields.io/static/v1?label=DOI&message=doi%2F10.1007%2Fs42979-022-01160-       7&color=critical" alt="DOI - doi/10.1007/s42979-022-01160-7"></a>
@@ -21,7 +21,7 @@ In addition, our algorithm generates weather information and the fire's intens
 
 3. **Xtinguish** also attempts to predict the **Fire Intensity** solely based on the image.
 
-![](assets/card.png)
+![](assets/image1.png)
 
  > **How is Xtinguish, different from other Image Classifiers ?**
  > 
@@ -33,7 +33,7 @@ Leveraging the power of **Transfer Learning**, **Xtinguish** adapts the architec
 
 Further trained on custom dataset, it classifies a given image into `No Fire`, `Fire`. On being tested on various images and benchmark datasets, **Xtinguish** acheived a high accuracy of **`98%`**. 
 
-![hhhh](https://user-images.githubusercontent.com/57211163/125050221-6868b500-e0bf-11eb-8169-1abdea1820c1.png)
+![](assets/image3.png)
 ---
 ---
 #### Cite the work
