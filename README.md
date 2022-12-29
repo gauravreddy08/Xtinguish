@@ -21,7 +21,7 @@ In addition, our algorithm generates weather information and the fire's intens
 
 3. **Xtinguish** also attempts to predict the **Fire Intensity** solely based on the image.
 
-![](assets/cards.png)
+![](assets/card.png)
 
  > **How is Xtinguish, different from other Image Classifiers ?**
  > 
