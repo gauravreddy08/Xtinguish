@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Sethuraman"
+  given-names: "Sibi Chakkaravarthy"
+- family-names: "Tadkapally"
+  given-names: "Gaurav Reddy"
+- family-names: "Mohanty"
+  given-names: "Saraju P."
+- family-names: "Subramanian"
+  given-names: "Anitha"
+title: "iDrone: IoT-Enabled Unmanned Aerial Vehicles for Detecting Wildfires Using Convolutional Neural Networks"
+doi: 10.1007/s42979-022-01160-7
+url: "https://link.springer.com/article/10.1007/s42979-022-01160-7"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Sethuraman"
+    given-names: "Sibi Chakkaravarthy"
+  - family-names: "Tadkapally"
+    given-names: "Gaurav Reddy"
+  - family-names: "Mohanty"
+    given-names: "Saraju P."
+  - family-names: "Subramanian"
+    given-names: "Anitha"
+  title: "iDrone: IoT-Enabled Unmanned Aerial Vehicles for Detecting Wildfires Using Convolutional Neural Networks"
+  doi: 10.1007/s42979-022-01160-7
+  url: "https://link.springer.com/article/10.1007/s42979-022-01160-7"
+  journal: "SN Computer Science"
+  year: 2022
