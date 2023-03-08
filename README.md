@@ -1,8 +1,9 @@
 ![](assets/image1.png)
 
 <p align="center">
-  <a href="https://doi.org/10.1007/s42979-022-01160-7"><img src="https://img.shields.io/static/v1?label=DOI&message=doi%2F10.1007%2Fs42979-022-01160-       7&color=critical" alt="DOI - doi/10.1007/s42979-022-01160-7"></a>
-
+  <a href="https://doi.org/10.1007/s42979-022-01160-7"><img src="https://img.shields.io/static/v1?label=DOI&message=doi%2F10.1007%2Fs42979-022-01160-7&color=critical" alt="DOI - doi/10.1007/s42979-022-01160-7"></a>
+  <a href="https://huggingface.co/spaces/gaurxvreddy/Xtinguish"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace_Spaces-online-green" alt="HuggingFace Spaces Demo"></a>
+  
 </p>
 
  ## What is Xtinguish ?
@@ -10,7 +11,7 @@ As a result of rising global temperatures, wildfires have destroyed millions of 
 
 ## How to use it ?
 
-In addition, our algorithm generates weather information and the fire's intensity. In contrast to existing wildfire detection systems, our proposed solution is a amalgam of the Internet of Things (IoT) and Machine Learning that aims to provide a one-stop shop for all the needs necessary to minimise wildfire damage.
+In addition, our algorithm generates weather information and the fire's intensity. In contrast to existing wildfire detection systems, our proposed solution is a amalgam of the Internet of Things (IoT) and Machine Learning that aims to provide a one-stop shop for all the needs necessary to minimise wildfire damage. Check out a demo at [**🤗 Hugging Face Spaces**](https://huggingface.co/spaces/gaurxvreddy/Xtinguis)
 
 ## What it does ?
 
@@ -35,10 +36,9 @@ Further trained on custom dataset, it classifies a given image into `No Fire`, `
 
 ![](assets/image3.png)
 ---
----
 #### Cite the work
 ```
-@Article{Sethuraman2022,
+@article{Sethuraman2022,
 author={Sethuraman, Sibi Chakkaravarthy and Tadkapally, Gaurav Reddy and Mohanty, Saraju P. and Subramanian, Anitha},
 title={iDrone: IoT-Enabled Unmanned Aerial Vehicles for Detecting Wildfires Using Convolutional Neural Networks},
 journal={SN Computer Science},
@@ -47,4 +47,3 @@ doi={10.1007/s42979-022-01160-7},
 url={https://doi.org/10.1007/s42979-022-01160-7}
 }
 ```
-
