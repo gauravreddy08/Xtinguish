@@ -9,6 +9,10 @@
  ## What is Xtinguish ?
 As a result of rising global temperatures, wildfires have destroyed millions of acres of land, thousands of structures, and tens of thousands of homes. The majority of wildfires are caused by human activity, which cannot be predicted based solely on climate conditions. Consequently, to detect wildfires prior to their escalation, we propose **Xtinguish**, which is equipped with a CNN image classification model trained on a wildfire imagery dataset to detect a possible flame or smoke in an image.
 
+<div align='center'>
+  <img src='assets/output-demo.gif' alt='demo'>
+ </div
+
 ## How to use it ?
 
 In addition, our algorithm generates weather information and the fire's intensity. In contrast to existing wildfire detection systems, our proposed solution is a amalgam of the Internet of Things (IoT) and Machine Learning that aims to provide a one-stop shop for all the needs necessary to minimise wildfire damage. Check out a demo at [**🤗 Hugging Face Spaces**](https://huggingface.co/spaces/gaurxvreddy/Xtinguis)
